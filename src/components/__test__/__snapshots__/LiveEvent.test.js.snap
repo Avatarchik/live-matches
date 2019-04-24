@@ -1,0 +1,648 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for LiveEvent Component render correctly text component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LiveEvent
+    liveEvent={Object {}}
+    liveScore={
+      Object {
+        "score": 0,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef>
+          Score Not Available
+        </ForwardRef>,
+        <ForwardRef>
+          <ForwardRef
+            type="unibet"
+          >
+             
+          </ForwardRef>
+          <ForwardRef />
+        </ForwardRef>,
+        <ForwardRef>
+          NaN-NaN-NaN
+        </ForwardRef>,
+        <React.Fragment>
+          <ForwardRef
+            href="https://www.unibet.com/betting#event/live/undefined"
+            target="_blank"
+          >
+            Place a bet
+          </ForwardRef>
+        </React.Fragment>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Score Not Available",
+        },
+        "ref": null,
+        "rendered": "Score Not Available",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": true,
+            "rules": Array [
+              "
+  font-size: 20px;
+  color: #eccb1e;
+  margin-bottom: 20px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef
+              type="unibet"
+            >
+               
+            </ForwardRef>,
+            <ForwardRef />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": " ",
+              "type": "unibet",
+            },
+            "ref": null,
+            "rendered": " ",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-gzVnrw",
+                "isStatic": false,
+                "rules": Array [
+                  "
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  margin-right: 5px;
+  top: 2px;
+  background-repeat: no-repeat;
+  background: url(",
+                  [Function],
+                  ");
+",
+                ],
+              },
+              "displayName": "styled.span",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-gzVnrw",
+              "target": "span",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bZQynM",
+                "isStatic": true,
+                "rules": Array [
+                  "
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-bZQynM",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bxivhb",
+            "isStatic": true,
+            "rules": Array [
+              "
+  margin-bottom: 10px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bxivhb",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "NaN-NaN-NaN",
+        },
+        "ref": null,
+        "rendered": "NaN-NaN-NaN",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ifAKCX",
+            "isStatic": true,
+            "rules": Array [
+              "
+  margin-bottom: 20px;
+  color: grey;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-ifAKCX",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <ForwardRef
+            href="https://www.unibet.com/betting#event/live/undefined"
+            target="_blank"
+          >
+            Place a bet
+          </ForwardRef>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Place a bet",
+            "href": "https://www.unibet.com/betting#event/live/undefined",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": "Place a bet",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-EHOje",
+              "isStatic": true,
+              "rules": Array [
+                "
+  font-weight: bold;
+  width: 125px;
+  height: 14px;
+  background: #2e7423;
+  padding: 8px 16px;
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 4px;
+  text-decoration-line: none;
+  text-decoration: none;
+",
+              ],
+            },
+            "displayName": "styled.a",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-EHOje",
+            "target": "a",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        "type": Symbol(react.fragment),
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": true,
+        "rules": Array [
+          "
+  background: #222;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+",
+        ],
+      },
+      "displayName": "styled.article",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": "article",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef>
+            Score Not Available
+          </ForwardRef>,
+          <ForwardRef>
+            <ForwardRef
+              type="unibet"
+            >
+               
+            </ForwardRef>
+            <ForwardRef />
+          </ForwardRef>,
+          <ForwardRef>
+            NaN-NaN-NaN
+          </ForwardRef>,
+          <React.Fragment>
+            <ForwardRef
+              href="https://www.unibet.com/betting#event/live/undefined"
+              target="_blank"
+            >
+              Place a bet
+            </ForwardRef>
+          </React.Fragment>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Score Not Available",
+          },
+          "ref": null,
+          "rendered": "Score Not Available",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htpNat",
+              "isStatic": true,
+              "rules": Array [
+                "
+  font-size: 20px;
+  color: #eccb1e;
+  margin-bottom: 20px;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-htpNat",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef
+                type="unibet"
+              >
+                 
+              </ForwardRef>,
+              <ForwardRef />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": " ",
+                "type": "unibet",
+              },
+              "ref": null,
+              "rendered": " ",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-gzVnrw",
+                  "isStatic": false,
+                  "rules": Array [
+                    "
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  margin-right: 5px;
+  top: 2px;
+  background-repeat: no-repeat;
+  background: url(",
+                    [Function],
+                    ");
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-gzVnrw",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": true,
+              "rules": Array [
+                "
+  margin-bottom: 10px;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "NaN-NaN-NaN",
+          },
+          "ref": null,
+          "rendered": "NaN-NaN-NaN",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-ifAKCX",
+              "isStatic": true,
+              "rules": Array [
+                "
+  margin-bottom: 20px;
+  color: grey;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-ifAKCX",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <ForwardRef
+              href="https://www.unibet.com/betting#event/live/undefined"
+              target="_blank"
+            >
+              Place a bet
+            </ForwardRef>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Place a bet",
+              "href": "https://www.unibet.com/betting#event/live/undefined",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": "Place a bet",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-EHOje",
+                "isStatic": true,
+                "rules": Array [
+                  "
+  font-weight: bold;
+  width: 125px;
+  height: 14px;
+  background: #2e7423;
+  padding: 8px 16px;
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 4px;
+  text-decoration-line: none;
+  text-decoration: none;
+",
+                ],
+              },
+              "displayName": "styled.a",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-EHOje",
+              "target": "a",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          "type": Symbol(react.fragment),
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": true,
+          "rules": Array [
+            "
+  background: #222;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+",
+          ],
+        },
+        "displayName": "styled.article",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "article",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
