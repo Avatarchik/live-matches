@@ -7,7 +7,7 @@ presents a list of matches in Carousel.
 
 1. `npm install`
 2. `npm run start`
-3. Project should open in `localhost:3717`
+3. Project should open in `localhost:3000/`
 4. `npm run test` to test the component
 
 ## How I did it
