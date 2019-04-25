@@ -7,7 +7,7 @@ presents a list of matches in Carousel.
 
 1. `npm install`
 2. `npm run start`
-3. Project should open in `localhost:3000/`
+3. Project should open in `localhost:3000`
 4. `npm run test` to test the component
 
 ## How I did it
@@ -25,11 +25,27 @@ src
     ├── Loader               # Loader with style
     ├── LiveEvent            # Live Event data
     ├── LiveMatches          # Live Matches component
-├── css                      # css for index.html
+    ├── Styles               # Component related styles
+
+├── css                      # provided css in test
 ├── Images                   # Images folder
+
+├── Pages                    # Pages
+    ├── Matches              # Main page to show data on carousel
+    ├── Instructions         # Instructions for the test
+    ├── Styles               # Pages related styles
+
 ├── App.js                   # Entry point of the app
 ├── constants.js             # Constant for the complete app
 ├── setupTests.js            # Jest setup for test
-├── styles.js                # Styled-component for React
 ├── index.js
+```
+
+## Tech Stack
+
+```
+- React
+- Styled-Component
+- React-Router
+- Jest and Enzyme
 ```

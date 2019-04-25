@@ -85,3 +85,9 @@ footer .inner {
 footer .inner p {
   padding: 16px 8px;
 }
+
+/* gloabl anchor tag style */
+
+a {
+  color: #fff !important;
+}
