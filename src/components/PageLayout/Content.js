@@ -41,6 +41,7 @@ class Content extends Component<{}, OwnState> {
         .then(json => {
           this.setState({ liveMatches: json, isLoading: false });
           localStorage.setItem('data', JSON.stringify(json));
+          // $FlowFixMe
           localStorage.setItem('fetchedTime', currentTime);
         })
         .catch(error => {

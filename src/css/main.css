@@ -69,7 +69,15 @@ article aside {
 article aside h2 {
   font-size: 15px;
   margin: 4px 0;
+  font-weight: bold;
 }
+article aside p {
+  margin: 1.05em 0;
+  font-size: 0.97em;
+  line-height: 1.68em;
+  font-family: 'Arial', sans serif;
+}
+
 article aside img {
   width: 220px;
 }

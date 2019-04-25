@@ -7,7 +7,7 @@ import BetWrapper from '../components/PageLayout/BetWrapper';
 
 import { MatchScreen } from './styles';
 
-const Matches = ({ controller }) => {
+const Matches = () => {
   return (
     <MatchScreen>
       {/* Header of the App */}

@@ -1,7 +1,6 @@
 // @flow
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import Slider from 'react-slick';
 import LiveEvent from './LiveEvent';
 import { SLIDER_SETTINGS } from '../constants';
@@ -46,12 +45,6 @@ const LiveMatches = (props: Props) => {
       </Slider>
     </React.Fragment>
   );
-};
-
-LiveMatches.prototype = {
-  liveMatches: PropTypes.shape({
-    liveEvents: PropTypes.array
-  })
 };
 
 export default LiveMatches;

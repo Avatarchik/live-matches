@@ -27,12 +27,14 @@ const Instructions = () => {
           <h3>Summary</h3>
           <ul>
             <li>
-              Take the <Link to="/">provided HTML page ,</Link>
-              use <strong>React</strong> and get the JSON data from the provided
-              API.
+              Take the
+              <Link to="/"> provided HTML page ,</Link>
+              use
+              <strong>React</strong>
+              and get the JSON data from the provided API.
             </li>
             <li>
-              Use the data to create a "ticker" element that shows matches that
+              Use the data to create a `ticker` element that shows matches that
               are currently being played.
             </li>
             <li>
@@ -44,8 +46,8 @@ const Instructions = () => {
               possible.
             </li>
             <li>
-              The page should work in the latest versions of{' '}
-              <strong>Chrome and Firefox.</strong>
+              The page should work in the latest versions of
+              <strong> Chrome and Firefox.</strong>
             </li>
             <li>
               This is your opportunity to showcase your skills, so make use of
@@ -76,15 +78,16 @@ const Instructions = () => {
             <ul>
               <li>Only one match should be shown at a time.</li>
               <li>
-                Every match should be shown for <strong>3 seconds</strong>.
+                Every match should be shown for
+                <strong>3 seconds.</strong>
               </li>
               <li>
-                After this it should switch to a new match using a "carousel"
+                After this it should switch to a new match using a `carousel`
                 style animation where the current match slides out left and the
                 new match slides in.
               </li>
               <li>
-                The duration of the slide animation should be{' '}
+                The duration of the slide animation should be
                 <strong>500 ms</strong>
               </li>
               <li>
@@ -93,30 +96,32 @@ const Instructions = () => {
                   <li>The current score (home team - away team)</li>
                   <li>The teams playing (home team - away team)</li>
                   <li>
-                    An icon representing the sport, if the sport is{' '}
-                    <strong>Football, Tennis or Basketball</strong>. For any
-                    other sport a default icon should be shown.
+                    An icon representing the sport, if the sport is
+                    <strong> Football, Tennis or Basketball.</strong>
+                    For any other sport a default icon should be shown.
                   </li>
                   <li>
                     The date and time when match starts/started. If the match is
-                    playing today it should say <strong>"Today"</strong>,
-                    otherwise it should show the date in <code>YYYY-MM-DD</code>{' '}
+                    playing today it should say
+                    <strong>`Today`,</strong>
+                    otherwise it should show the date in
+                    <code>YYYY-MM-DD</code>
                     format.
                   </li>
                   <li>
                     A button style link that opens the match in the Unibet
-                    Betting Client. The format of the link should be{' '}
+                    Betting Client. The format of the link should be
                     <code>https://www.unibet.com/betting#/event/live/1234</code>
-                    , where '1234' is replaced with the correct Event ID for the
+                    , where `1234` is replaced with the correct Event ID for the
                     match.
                   </li>
                 </ul>
               </li>
               <li>
-                The data fetched from the API should be{' '}
-                <strong>cached for 2 minutes</strong>. Meaning that no
-                additional API calls should be made during this time, even when
-                the page is reloaded.
+                The data fetched from the API should be
+                <strong>cached for 2 minutes.</strong>
+                Meaning that no additional API calls should be made during this
+                time, even when the page is reloaded.
               </li>
             </ul>
           </section>
@@ -126,15 +131,17 @@ const Instructions = () => {
           <h3>API</h3>
           <ul>
             <li>
-              The API URL to use is:{' '}
+              The API URL to use is:
               <code>
                 http://api.unicdn.net/v1/feeds/sportsbook/event/live.jsonp?app_id=ca7871d7&app_key=5371c125b8d99c8f6b5ff9a12de8b85a
               </code>
               .
             </li>
             <li>
-              The API supports <strong>JSON-P</strong> with an appended callback
-              parameter, for example: <code>?callback=myFunction</code>.
+              The API supports
+              <strong>JSON-P</strong>
+              with an appended callback parameter, for example:
+              <code>?callback=myFunction.</code>
             </li>
             <li>
               The API returns live data, so you may get different results during
@@ -148,7 +155,8 @@ const Instructions = () => {
           <ul>
             <li>
               The solution should be built using front-end technologies only (
-              <strong>JavaScript, HTML, CSS</strong>).
+              <strong>JavaScript, HTML, CSS</strong>
+              ).
             </li>
             <li>
               This is your opportunity to showcase your skills, so make use of
@@ -192,7 +200,7 @@ const Instructions = () => {
         <hr />
         <section>
           <h3>Final words</h3>
-          <p>That's it! Happy coding! :-)</p>
+          <p>Thats it! Happy coding! :-)</p>
         </section>
       </div>
     </InstructionScreen>
