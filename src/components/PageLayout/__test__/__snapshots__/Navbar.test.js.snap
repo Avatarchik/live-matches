@@ -20,11 +20,12 @@ ShallowWrapper {
     "props": Object {
       "children": <ul>
         <li>
-          <a
-            href="instructions/index.html"
+          <Link
+            className="link"
+            to="instructions/index.html"
           >
             Test instructions
-          </a>
+          </Link>
         </li>
       </ul>,
     },
@@ -35,11 +36,12 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <li>
-          <a
-            href="instructions/index.html"
+          <Link
+            className="link"
+            to="instructions/index.html"
           >
             Test instructions
-          </a>
+          </Link>
         </li>,
       },
       "ref": null,
@@ -48,24 +50,26 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <a
-            href="instructions/index.html"
+          "children": <Link
+            className="link"
+            to="instructions/index.html"
           >
             Test instructions
-          </a>,
+          </Link>,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
             "children": "Test instructions",
-            "href": "instructions/index.html",
+            "className": "link",
+            "to": "instructions/index.html",
           },
           "ref": null,
           "rendered": "Test instructions",
-          "type": "a",
+          "type": [Function],
         },
         "type": "li",
       },
@@ -81,11 +85,12 @@ ShallowWrapper {
       "props": Object {
         "children": <ul>
           <li>
-            <a
-              href="instructions/index.html"
+            <Link
+              className="link"
+              to="instructions/index.html"
             >
               Test instructions
-            </a>
+            </Link>
           </li>
         </ul>,
       },
@@ -96,11 +101,12 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <li>
-            <a
-              href="instructions/index.html"
+            <Link
+              className="link"
+              to="instructions/index.html"
             >
               Test instructions
-            </a>
+            </Link>
           </li>,
         },
         "ref": null,
@@ -109,24 +115,26 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <a
-              href="instructions/index.html"
+            "children": <Link
+              className="link"
+              to="instructions/index.html"
             >
               Test instructions
-            </a>,
+            </Link>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
               "children": "Test instructions",
-              "href": "instructions/index.html",
+              "className": "link",
+              "to": "instructions/index.html",
             },
             "ref": null,
             "rendered": "Test instructions",
-            "type": "a",
+            "type": [Function],
           },
           "type": "li",
         },

@@ -39,7 +39,7 @@ export const Button = styled.a`
   font-weight: bold;
   width: 125px;
   height: 14px;
-  background: #2e7423;
+  background: #3fa83c;
   padding: 8px 16px;
   text-align: center;
   color: white;
@@ -49,6 +49,12 @@ export const Button = styled.a`
   border-radius: 4px;
   text-decoration-line: none;
   text-decoration: none;
+  transition: all 0.5s ease 0s;
+  &:hover {
+    color: #333;
+    background: #ffce18;
+    text-decoration: none;
+  }
 `;
 
 export const TeamName = styled.div`

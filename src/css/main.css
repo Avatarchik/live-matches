@@ -88,6 +88,6 @@ footer .inner p {
 
 /* gloabl anchor tag style */
 
-a {
+a.link {
   color: #fff !important;
 }
